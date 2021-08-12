@@ -1,0 +1,101 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  
+  margin: 2em;
+  background-color: #a4cbff;
+  font-family: 'Pacifico', cursive;
+  color: rgb(41, 9, 117);
+  text-align:left;
+  font-size : 20px;
+}
+ 
+
+/* STYLE TEXT */
+
+h1 {
+  font-style: italic;
+  color: #0d9c90;
+}
+
+h3 {
+  margin-top: 2em;  
+  color: #18534e;
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+/* STYLE IMAGES */
+
+img {
+  height:20em; 
+} 
+
+.flexboxContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flexItem{
+  flex-basis: 100%;
+  margin: 1% ;
+}
+
+/* STYLE NAV BAR */
+
+ul{
+  list-style-type: none ;
+  background-color: rgba(137, 43, 226, 0.384);;
+  padding:1em;
+  overflow:hidden;
+}
+li{
+  display: inline;
+}
+
+
+li a{
+  text-decoration: none;
+  padding: 1em;
+  color: green;
+  font-size:2em;
+}
+
+li a:hover{
+  background-color: #43D6B9;
+}
+
+ 
+/* STYLE BUTTONS */
+#factButton {
+  background-color:rgb(14, 184, 36);
+  color: rgb(255, 211, 117);
+  border: none;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+/* ADD MORE! */
+iframe {
+  margin: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+.images {
+  display: inline;
+}
+
+/* ADD MORE! */
+@media screen and (max-width:850px ){
+ (max-width:850px );{
+   .flexboxContainer {
+    flex-wrap: wrap;
+  }
+}
+  
