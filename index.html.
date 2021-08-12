@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>YOUR NAME HERE</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+  
+  <body>
+    
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="resources.html">Resources</a>
+        </li>
+      </ul>
+    </nav>
+    
+    <h1 id = "Title"> Mental Health awareness</h1> 
+
+    <h6>We care about this cause because:
+    
+    <p>
+     1) Some people would ignore and evade their own psychological problems 
+    </p>
+
+    <p>
+    2) It is a thing that everyone should pay attention to
+    </p>
+
+    <p>
+    3)  A good metal health condition would improve our overall health and quality of life
+    </p>
+
+    <div class="flexboxContainer">
+
+      <div class="flexItem">
+        <img id = "Image" src="https://cdn.pixabay.com/photo/2017/01/30/02/20/mental-health-2019924_960_720.jpg" alt="mental health puzzel.">
+      </div>
+
+      <div class="flexItem">
+        <img id = "Image" src="https://cdn.pixabay.com/photo/2020/07/05/03/45/mindfulness-5371476_960_720.png" alt="brain and heart.">
+      </div>
+    
+    </div>
+
+
+   <p>Click this button and learn some fact and misconceptions about mental health illness</p>
+		<button id="factButton">Click</button>
+    <p id="fact"></p>
+
+    
+    <p>
+      This is a youtube video that would explain what mental health is !    
+    </p>    
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oxx564hMBUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     
+        
+        
+ 
+  </body>
+</html>
